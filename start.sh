@@ -1,6 +1,6 @@
 echo "安装EPEL源"
-yum install epel-release -y
+yum install -y epel-release
 echo "更新系统"
-yum update -y
+yum -y update
 echo "安装常用软件"
-yum install wget vim screen curl htop -y
+yum install -y wget vim screen curl htop
