@@ -9,7 +9,6 @@ yum install wget vim screen curl htop -y
 echo "=============================="
 echo "         更新系统"
 echo "=============================="
-screen -S yum
 yum update -y
 echo "=============================="
 echo "        增加端口"
