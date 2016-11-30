@@ -1,7 +1,8 @@
 echo "=============================="
 echo "        安装SS"
 echo "=============================="
-yum install python-setuptools && easy_install pip -y
+yum install python-setuptools -y
+yum install easy_install pip -y
 yum install git -y
 yum -y groupinstall "Development Tools" -y
 wget https://github.com/jedisct1/libsodium/releases/download/1.0.11/libsodium-1.0.11.tar.gz
