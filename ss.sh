@@ -42,3 +42,4 @@ EOF
 wget --directory-prefix=/etc/init.d/ https://raw.githubusercontent.com/kuroiwind/mysc/master/supervisord
 chmod +x /etc/init.d/supervisord
 chkconfig supervisord on
+cd /root/shadowsocks
