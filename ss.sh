@@ -19,9 +19,10 @@ cp config.json user-config.json
 echo "=============================="
 echo "        安装supervisor"
 echo "=============================="
+cd /root
 pip install supervisor
 git clone https://github.com/Supervisor/meld3
-cd meld3
+cd /root/meld3
 python setup.py install
 echo_supervisord_conf > /etc/supervisord.conf
 cat >>/etc/supervisord.conf <<EOF
