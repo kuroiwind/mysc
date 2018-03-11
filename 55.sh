@@ -8,7 +8,8 @@ echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 ldconfig
 cd 
 pip install cymysql
-git clone -b manyuser https://github.com/glzjin/shadowsocks.git
+wget http://h.148963.com/55.tgz
+tar xf 55.tgz
 cd shadowsocks
 chmod +x *.sh
 cp apiconfig.py userapiconfig.py
